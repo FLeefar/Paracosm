@@ -234,7 +234,7 @@
         </mxCell>
         <UserObject label="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;clients.append(Client())&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" link="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;clients.append(Client&lt;/span&gt;&#xa;&#xa;" id="cj8k2KHTS7MA4aPITtsR-132">
           <mxCell style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-            <mxGeometry x="80" y="460" width="130" height="50" as="geometry" />
+            <mxGeometry x="70" y="460" width="130" height="50" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cj8k2KHTS7MA4aPITtsR-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-134" target="cj8k2KHTS7MA4aPITtsR-40">
@@ -251,6 +251,65 @@
         </mxCell>
         <mxCell id="cj8k2KHTS7MA4aPITtsR-138" value="class Client()" style="text;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-90" y="472.5" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-140" value="初始化client模型参数&lt;div&gt;clients[0].model.shared_layers.parameters()&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="70" y="530" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-143" target="cj8k2KHTS7MA4aPITtsR-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-143" value="class Client()" style="text;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="537.5" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-147" value="&lt;span style=&quot;text-align: left;&quot;&gt;models/initialize_model.py&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-360" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-149" target="cj8k2KHTS7MA4aPITtsR-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-153" value="model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cj8k2KHTS7MA4aPITtsR-150">
+          <mxGeometry x="-0.1399" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-149" target="cj8k2KHTS7MA4aPITtsR-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-161" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;mtl_model&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cj8k2KHTS7MA4aPITtsR-159">
+          <mxGeometry x="0.205" y="2" relative="1" as="geometry">
+            <mxPoint x="-28" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-149" target="cj8k2KHTS7MA4aPITtsR-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-162" value="global_model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cj8k2KHTS7MA4aPITtsR-160">
+          <mxGeometry x="0.7168" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-149" value="initialize_model(args, device)" style="text;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="535" width="165" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;self.model = initialize_model(args, device)&lt;/span&gt;" link="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;self.model = initialize_model(args, device)&lt;/span&gt;" id="cj8k2KHTS7MA4aPITtsR-151">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-160" y="570" width="260" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-154" value="cifar10 &amp;amp;&amp;nbsp; cnn_complex" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="650" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-156" value="args.dataset" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="650" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-154" target="cj8k2KHTS7MA4aPITtsR-166">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-390" y="680" as="sourcePoint" />
+            <mxPoint x="-390" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-166" value="shared_layers&lt;div&gt;specific_layers&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-432.5" y="730" width="85" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
