@@ -33,6 +33,12 @@
         <mxCell id="cj8k2KHTS7MA4aPITtsR-57" value="HierFAVG(args)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="150" width="110" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-59" value="def HierFAVG(args)" style="text;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-60" value="args.seed 随机种子" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="110" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
