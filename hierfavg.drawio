@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="2140" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2105" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -428,11 +428,30 @@
         <mxCell id="cj8k2KHTS7MA4aPITtsR-197" value="initialize_edges_niid" style="text;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="82.5" y="868" width="105" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-202" target="cj8k2KHTS7MA4aPITtsR-206">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-8" y="990" />
+              <mxPoint x="45" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cj8k2KHTS7MA4aPITtsR-202" value="10个类别里面分别随机分配" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="-60" y="940" width="105" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-204" target="cj8k2KHTS7MA4aPITtsR-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cj8k2KHTS7MA4aPITtsR-204" value="一个Edge分两类" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="82.5" y="940" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-220" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-206" target="cj8k2KHTS7MA4aPITtsR-214">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="1090" />
+              <mxPoint x="80" y="1090" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <UserObject label="edges.append(Edge())&lt;div&gt;&lt;br&gt;&lt;/div&gt;" link="edges.append(Edge(id" id="cj8k2KHTS7MA4aPITtsR-206">
           <mxCell style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
@@ -465,8 +484,74 @@
         <mxCell id="cj8k2KHTS7MA4aPITtsR-214" value="为当前edge注册client" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="10" y="1110" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-216" target="cj8k2KHTS7MA4aPITtsR-217">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="88" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cj8k2KHTS7MA4aPITtsR-216" value="计算当前edge中每个client的样本比例" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1180" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-217" value="刷新edge状态" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1245" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.451;entryY=0.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-214" target="cj8k2KHTS7MA4aPITtsR-216">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-224" value="return edges, p_clients" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="1245" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-228" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-226" target="cj8k2KHTS7MA4aPITtsR-227">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-226" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="1275" width="172.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-230" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-227" target="cj8k2KHTS7MA4aPITtsR-229">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-227" value="初始化cloud" style="whiteSpace=wrap;html=1;align=left;strokeWidth=2;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="131.88" y="1360" width="83.75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-240" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-229" target="cj8k2KHTS7MA4aPITtsR-234">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-229" value="cloud注册edge" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="128.75" y="1410" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-231" target="cj8k2KHTS7MA4aPITtsR-229">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-231" value="edge_register(self, edge)" style="text;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="1412.5" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-233" value="注册边缘服务器，记录其ID和样本数量" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="1460" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-241" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-234" target="cj8k2KHTS7MA4aPITtsR-235">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-234" value="计算每个edge的样本比例" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="98.75" y="1470" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-235" value="刷新cloud状态" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="133.75" y="1530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-236" target="cj8k2KHTS7MA4aPITtsR-227">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-236" target="cj8k2KHTS7MA4aPITtsR-234">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-239" value="&lt;div style=&quot;background-color:#131314;color:#ebebeb&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;sample_registration.values()&lt;/pre&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cj8k2KHTS7MA4aPITtsR-238">
+          <mxGeometry x="0.5052" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-236" value="class Cloud()" style="text;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="1355" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
