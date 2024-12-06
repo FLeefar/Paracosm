@@ -12,7 +12,7 @@
         <mxCell id="cj8k2KHTS7MA4aPITtsR-2" value="hierfavg" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="40" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cj8k2KHTS7MA4aPITtsR-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-40">
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-40" target="cj8k2KHTS7MA4aPITtsR-59">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="135.03448275862092" y="150" as="targetPoint" />
           </mxGeometry>
@@ -29,7 +29,7 @@
           <mxGeometry x="-110" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cj8k2KHTS7MA4aPITtsR-59" value="def HierFAVG(args)" style="text;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="80" y="150" width="110" height="30" as="geometry" />
+          <mxGeometry x="80" y="200" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cj8k2KHTS7MA4aPITtsR-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-60" target="cj8k2KHTS7MA4aPITtsR-63">
           <mxGeometry relative="1" as="geometry" />
@@ -67,7 +67,7 @@
           <mxGeometry x="500" y="220" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cj8k2KHTS7MA4aPITtsR-73" value="train_loaders, test_loaders, v_train_loader, v_test_loader&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="220" y="290" width="310" height="30" as="geometry" />
+          <mxGeometry x="240" y="290" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cj8k2KHTS7MA4aPITtsR-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-75" target="cj8k2KHTS7MA4aPITtsR-73">
           <mxGeometry relative="1" as="geometry" />
