@@ -96,19 +96,53 @@
         </mxCell>
         <mxCell id="cj8k2KHTS7MA4aPITtsR-88" value="判断是mnist / cifar10数据集" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cj8k2KHTS7MA4aPITtsR-87">
           <mxGeometry x="-0.2389" y="-1" relative="1" as="geometry">
-            <mxPoint x="14" y="-19" as="offset" />
+            <mxPoint x="14" y="-24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cj8k2KHTS7MA4aPITtsR-91" value="mnist" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cj8k2KHTS7MA4aPITtsR-87">
           <mxGeometry x="0.5332" relative="1" as="geometry">
+            <mxPoint y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-79" target="cj8k2KHTS7MA4aPITtsR-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-95" value="cifar10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cj8k2KHTS7MA4aPITtsR-94">
+          <mxGeometry x="0.696" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cj8k2KHTS7MA4aPITtsR-79" value="get_dataset&lt;div&gt;(dataset_root=&#39;data&#39;,&lt;br&gt;dataset=args.dataset,&lt;br&gt;args = args)&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="850" y="270" width="120" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-86" target="cj8k2KHTS7MA4aPITtsR-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cj8k2KHTS7MA4aPITtsR-86" value="&lt;div&gt;get_mnist(dataset_root, args)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="755" y="450" width="160" height="30" as="geometry" />
+          <mxGeometry x="740" y="450" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-92" target="cj8k2KHTS7MA4aPITtsR-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-92" value="&lt;div&gt;get_cifar10(dataset_root, args)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="450" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-96" target="cj8k2KHTS7MA4aPITtsR-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-96" value="is_cuda&lt;div&gt;kwargs(线程，&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(6, 6, 7); letter-spacing: 0.25px; text-align: justify; white-space-collapse: preserve;&quot;&gt;&lt;font&gt;pin_memory&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;transform(totensor，Normalize归一化)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;加载train、test数据集&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;创建&lt;/span&gt;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;train_loaders、&lt;/span&gt;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;test_loaders&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="520" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cj8k2KHTS7MA4aPITtsR-102" target="cj8k2KHTS7MA4aPITtsR-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-102" value="split_data(dataset, args, kwargs, is_shuffle = True)" style="text;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="760" y="650" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cj8k2KHTS7MA4aPITtsR-105" value="args.iid" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="887.5" y="720" width="45" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
