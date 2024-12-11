@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="3604" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3904" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -630,6 +630,9 @@
             <mxPoint x="-440" y="1698" as="sourcePoint" />
             <mxPoint x="-440" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MOeim-y9coMgPSxVAbvQ-18" value="开始训练&#xa;&#xa;遍历通信轮数&#xa;&#xa;云端服务器刷新状态&#xa;&#xa;云端服务器重新注册边缘服务器&#xa;&#xa;遍历边缘聚合轮数&#xa;&#xa;初始化边缘服务器损失和样本数&#xa;&#xa;遍历每个边缘服务器&#xa;&#xa;边缘服务器刷新状态&#xa;&#xa;随机选择客户端&#xa;&#xa;客户端更新模型&#xa;&#xa;客户端发送模型更新到边缘服务器&#xa;&#xa;边缘服务器聚合更新&#xa;&#xa;边缘服务器测试&#xa;&#xa;计算全局损失和准确率&#xa;&#xa;记录Tensorboard指标&#xa;&#xa;边缘服务器发送模型到云端&#xa;&#xa;云端服务器聚合模型&#xa;&#xa;云端服务器发送聚合后的模型到边缘服务器&#xa;&#xa;加载云端模型参数&#xa;&#xa;在虚拟测试集上测试全局模型&#xa;&#xa;计算虚拟测试集上的准确率&#xa;&#xa;记录虚拟测试集准确率到Tensorboard&#xa;&#xa;结束训练&#xa;&#xa;关闭TensorboardX SummaryWriter" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="1760" width="260" height="700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
