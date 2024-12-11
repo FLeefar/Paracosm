@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="3791" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3604" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,7 +54,7 @@
           <mxGeometry x="70" y="310" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cj8k2KHTS7MA4aPITtsR-70" value="TensorboardX" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="310" width="80" height="20" as="geometry" />
+          <mxGeometry x="320" y="310" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cj8k2KHTS7MA4aPITtsR-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cj8k2KHTS7MA4aPITtsR-73" target="cj8k2KHTS7MA4aPITtsR-132" edge="1">
           <mxGeometry relative="1" as="geometry">
