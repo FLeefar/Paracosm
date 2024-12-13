@@ -626,7 +626,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MOeim-y9coMgPSxVAbvQ-18" value="开始训练 &#xa; &#xa;遍历通信轮数 &#xa; &#xa;云端服务器刷新状态 &#xa; &#xa;云端服务器重新注册边缘服务器 &#xa; &#xa;遍历边缘聚合轮数 &#xa; &#xa;初始化边缘服务器损失和样本数 &#xa; &#xa;遍历每个边缘服务器 &#xa; &#xa;边缘服务器刷新状态 &#xa; &#xa;随机选择客户端 &#xa; &#xa;客户端更新模型 &#xa; &#xa;客户端发送模型更新到边缘服务器 &#xa; &#xa;边缘服务器聚合更新 &#xa; &#xa;边缘服务器测试 &#xa; &#xa;计算全局损失和准确率 &#xa; &#xa;记录Tensorboard指标 &#xa; &#xa;边缘服务器发送模型到云端 &#xa; &#xa;云端服务器聚合模型 &#xa; &#xa;云端服务器发送聚合后的模型到边缘服务器 &#xa; &#xa;加载云端模型参数 &#xa; &#xa;在虚拟测试集上测试全局模型 &#xa; &#xa;计算虚拟测试集上的准确率 &#xa; &#xa;记录虚拟测试集准确率到Tensorboard &#xa; &#xa;结束训练 &#xa; &#xa;关闭TensorboardX SummaryWriter" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="15" y="1720" width="240" height="700" as="geometry" />
+          <mxGeometry x="27.5" y="1750" width="240" height="700" as="geometry" />
         </mxCell>
         <mxCell id="tFxaoxmBuNk3I_pynBhu-2" value="refresh_cloudserver(self)" style="text;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-1440" y="1820" width="170" height="40" as="geometry" />
